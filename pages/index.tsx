@@ -41,14 +41,14 @@ const Home: NextPage = () => {
       scrollTrigger: {
         trigger: imageContainer.current,
         pin: true,
-        start: "top",
-        end: "+=5000",
+        start: "top 37.5%",
+        end: "+=1700",
         markers: true,
         scrub: true,
         toggleActions: "play none none reverse",
         anticipatePin: 1,
       },
-      scale: 2,
+      scale: 4,
     });
   });
 
@@ -80,6 +80,7 @@ const Home: NextPage = () => {
           </div>
         </div>
       </section>
+      <section className={styles.section}></section>
     </div>
   );
 };

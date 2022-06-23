@@ -4,7 +4,7 @@
 }
 .section2 {
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .textContainer {
@@ -30,7 +30,7 @@
 .imageContainer {
   position: relative;
   width: 100vw;
-  height: 100vh;
+  height: 2000px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -38,5 +38,7 @@
 }
 
 .image {
-  width: 52vw;
+  position: absolute;
+  top: 0;
+  width: 25vw;
 }
