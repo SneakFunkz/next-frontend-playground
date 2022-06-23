@@ -1,13 +1,42 @@
+.section {
+  width: 100vw;
+  height: 100vh;
+}
+.section2 {
+  width: 100vw;
+  height: 100vh;
+}
+
+.textContainer {
+  padding-top: 30vh;
+}
+
 .textContainer h1 {
   font-size: 100px;
   position: relative;
-  line-height: 100px;
-  /* overflow: hidden; */
+  height: 100px;
+  overflow: hidden;
 }
 
-.text {
+.titleText {
+  opacity: 0;
+  width: 100%;
+  text-align: center;
   position: absolute;
   top: 100px;
   left: 0px;
-  background-color: aqua;
+}
+
+.imageContainer {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.image {
+  width: 52vw;
 }
